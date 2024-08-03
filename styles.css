@@ -1,20 +1,18 @@
-/*
- Challenge:
-  * Make the page more vibrant and festive
-    using the colors: #f07167 and #00afb9
-  * Update the space between the input, select, and submit button
+/* 
+  Challenge:
+   * Make the page more vibrant and festive
+     using the colors: #f07167 and #00afb9
+   * Update the space between the input, select, and submit button 
 */
-
 
 /* Reset default styles */
 body, h1, h2, h3, p, label, input, select, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   }
-   
-   
-   body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
     color: #333;
@@ -23,30 +21,26 @@ body, h1, h2, h3, p, label, input, select, button {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-   }
-   
-   
-   header {
+  }
+  
+  header {
     background-color: #f07167;
     text-align: center;
     padding: 20px;
-   }
-   
-   
-   h1 {
+  }
+  
+  h1 {
     font-size: 24px;
     color: white;
     margin-bottom: 10px;
-   }
-   
-   
-   h2 {
+  }
+  
+  h2 {
     font-size: 18px;
     color: white;
-   }
-   
-   
-   main {
+  }
+  
+  main {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -54,30 +48,26 @@ body, h1, h2, h3, p, label, input, select, button {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.75);
-   }
-   
-   
-   h3 {
-    color: #00afb9;  
+  }
+  
+  h3 {
+    color: #00afb9;   
     font-size: 20px;
     margin-bottom: 10px;
-   }
-   
-   
-   p {
+  }
+  
+  p {
     margin-bottom: 20px;
-   }
-   
-   
-   label {
+  }
+  
+  label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-   }
-   
-   
-   input[type="email"],
-   select {
+  }
+  
+  input[type="email"],
+  select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -85,10 +75,9 @@ body, h1, h2, h3, p, label, input, select, button {
     background-color: #fff;
     font-size: 16px;
     margin-bottom: 18px;
-   }
-   
-   
-   button[type="submit"] {
+  }
+  
+  button[type="submit"] {
     display: block;
     width: 100%;
     padding: 10px;
@@ -98,10 +87,9 @@ body, h1, h2, h3, p, label, input, select, button {
     color: white;
     font-size: 16px;
     cursor: pointer;
-   }
-   
-   
-   #confirmation-message {
+  }
+  
+  #confirmation-message {
     display: none;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -110,52 +98,42 @@ body, h1, h2, h3, p, label, input, select, button {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-   }
-   
-   
-   /* Responsive styles */
-   @media screen and (max-width: 600px) {
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
     main {
       margin: 10px;
       padding: 10px;
     }
-   
-   
+  
     h1 {
       font-size: 20px;
     }
-   
-   
+  
     h2 {
       font-size: 16px;
     }
-   
-   
+  
     h3 {
       font-size: 18px;
     }
-   
-   
+  
     p {
       font-size: 14px;
     }
-   
-   
+  
     input[type="email"],
     select {
       font-size: 14px;
     }
-   
-   
+  
     button[type="submit"] {
       font-size: 14px;
     }
-   
-   
+  
     #confirmation-message {
       font-size: 14px;
     }
-   }
-   
-   
-   
+  }
+  
